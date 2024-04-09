@@ -1,0 +1,77 @@
+
+
+.REGISTER{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(259,216,149);
+    font-family: 'Chakra Petch', sans-serif;
+  }
+  
+ .REGISTER .form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  .REGISTER .form label {
+    margin-bottom: 5px;
+  }
+  
+  .REGISTER .form input[type="name"],
+  .REGISTER .form input[type="email"],
+  .REGISTER .form input[type="password"] {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .REGISTER .form button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    padding-left: 90px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .REGISTER .form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .REGISTER .form p {
+    text-align: center;
+    font-size:x-small;
+  }
+  
+  .err{
+    color: rgb(177, 65, 65);
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    font-size: small;
+  }
+  
+  .REGISTER .form a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .REGISTER .form a:hover {
+    text-decoration: underline;
+  }
